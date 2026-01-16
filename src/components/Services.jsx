@@ -1,3 +1,8 @@
+import repair from '../assets/gallery/repair.jpeg'
+import maintenance from '../assets/gallery/maintenance.jpeg'
+import support from '../assets/gallery/support.jpeg'
+import sales from '../assets/gallery/sales.jpeg'
+
 function Services() {
   const services = [
     {
@@ -9,7 +14,7 @@ function Services() {
         "Parts replacement and sourcing",
         "All makes and models supported"
       ],
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80",
+      image: repair,
       color: "blue"
     },
     {
@@ -21,7 +26,7 @@ function Services() {
         "Battery testing and replacement",
         "Load testing and calibration"
       ],
-      image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+      image: maintenance,
       color: "green"
     },
     {
@@ -33,7 +38,7 @@ function Services() {
         "On-site assistance",
         "Training and guidance"
       ],
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+      image: support,
       color: "orange"
     },
     {
@@ -45,7 +50,7 @@ function Services() {
         "Expert consultation",
         "Installation services"
       ],
-      image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=80",
+      image: sales,
       color: "purple"
     },
   ];

@@ -1,9 +1,11 @@
+import hero from '../assets/gallery/hero.jpeg'
+
 function Hero() {
   return (
     <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 py-20 md:py-32 overflow-hidden">
       <div className="absolute inset-0 opacity-10">
         <img 
-          src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=1920&q=80" 
+          src={hero} 
           alt="Generator" 
           className="w-full h-full object-cover"
         />

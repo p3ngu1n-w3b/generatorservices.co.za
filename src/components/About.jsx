@@ -1,3 +1,5 @@
+import about from '../assets/gallery/about.jpeg'
+
 function About() {
   return (
     <section id="about" className="py-20 bg-white">
@@ -38,7 +40,7 @@ function About() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80" 
+                src={about}
                 alt="Generator maintenance" 
                 className="rounded-lg shadow-xl w-full h-auto"
               />

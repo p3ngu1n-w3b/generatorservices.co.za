@@ -27,16 +27,43 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
+        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-center">
+          <div className="mb-4 md:mb-0 text-center">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Garden Route Generator Services. All rights reserved.
+              © {new Date().getFullYear()} Garden Route Generator Services.
+            </p>
+            <p className="text-gray-400 text-sm">
+              All rights reserved.
             </p>
           </div>
-          <div className="text-gray-400 text-sm">
-            <p>www.generatorservices.co.za</p>
-          </div>
         </div>
+
+        <div className="border-t border-gray-800 mt-8 pt-8 text-center space-y-2">
+          <p className="text-sm text-gray-400">
+            This website was built by 
+            <a href="https://www.linkedin.com/in/jaco-roux/" target="_blank">
+              <span className="font-medium text-gray-200 ml-1">Jaco Roux</span>
+            </a>.
+          </p>
+
+          <p className="text-sm text-gray-400">
+            For any website requirements:&nbsp;
+            <a
+              href="tel:0658095070"
+              className="hover:text-white transition"
+            >
+              065&nbsp;809&nbsp;5070
+            </a>
+            &nbsp;|&nbsp;
+            <a
+              href="mailto:jaco.roux9@gmail.com"
+              className="hover:text-white transition"
+            >
+              jaco.roux9@gmail.com
+            </a>
+          </p>
+        </div>
+
       </div>
     </footer>
   );
