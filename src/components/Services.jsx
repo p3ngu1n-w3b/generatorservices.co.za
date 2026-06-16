@@ -6,49 +6,49 @@ import sales from '../assets/gallery/sales.jpeg'
 function Services() {
   const services = [
     {
-      title: "Repairs",
-      description: "Expert diagnosis and repair services for all generator makes and models, ensuring your equipment runs at peak performance.",
+      title: "Residential Backup Solutions",
+      description: "Protect your home from load shedding with correctly sized backup systems and dependable maintenance.",
       details: [
-        "Emergency repair services",
-        "Fault diagnosis and troubleshooting",
-        "Parts replacement and sourcing",
-        "All makes and models supported"
+        "Generator sizing guidance for homes",
+        "Installation-ready recommendations",
+        "Routine servicing and annual checks",
+        "Quick fault diagnosis and repairs"
       ],
       image: repair,
       color: "blue"
     },
     {
-      title: "Maintenance",
-      description: "Regular maintenance programs to keep your generators reliable and extend their lifespan, preventing costly breakdowns.",
+      title: "Business Continuity Packages",
+      description: "Keep your store, office, clinic, or workshop productive with priority support and planned servicing.",
       details: [
-        "Scheduled maintenance programs",
-        "Oil and filter changes",
-        "Battery testing and replacement",
-        "Load testing and calibration"
+        "Preventative monthly and quarterly plans",
+        "Load testing and compliance checks",
+        "Battery, fuel, and cooling inspections",
+        "Priority response for downtime incidents"
       ],
       image: maintenance,
       color: "green"
     },
     {
-      title: "Support",
-      description: "Comprehensive technical support and troubleshooting assistance whenever you need it, ensuring minimal downtime.",
+      title: "Industrial And Site Support",
+      description: "Reduce risk for larger loads with on-site troubleshooting, repairs, and reliability-focused support.",
       details: [
-        "24/7 technical support",
-        "Remote troubleshooting",
-        "On-site assistance",
-        "Training and guidance"
+        "On-site diagnostics and repairs",
+        "Parts sourcing and replacements",
+        "Performance optimization checks",
+        "Operator guidance and handover"
       ],
       image: support,
       color: "orange"
     },
     {
-      title: "Sales",
-      description: "Quality generators of all sizes available for purchase, with expert guidance to find the perfect solution for your needs.",
+      title: "Generator Sales And Upgrades",
+      description: "Choose the right generator for your load profile with practical guidance from quote to commissioning.",
       details: [
-        "New and used generators",
-        "All sizes and capacities",
-        "Expert consultation",
-        "Installation services"
+        "New and pre-owned options",
+        "Sizing by kVA and usage profile",
+        "Delivery and setup coordination",
+        "Support plans after installation"
       ],
       image: sales,
       color: "purple"
@@ -67,11 +67,11 @@ function Services() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Our Services
+            Power Solutions Built Around Your Needs
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Comprehensive generator solutions tailored to your needs. From emergency repairs to 
-            new installations, we've got you covered.
+            Whether you need home backup confidence or commercial uptime protection, we tailor each solution for your site,
+            budget, and urgency.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8">
@@ -101,6 +101,14 @@ function Services() {
                   </li>
                 ))}
               </ul>
+              <a
+                href="https://wa.me/27822105077?text=Hi%2C%20I%20am%20interested%20in%20your%20generator%20services.%20Please%20assist."
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block mt-5 bg-blue-900 text-white px-4 py-2 rounded-md hover:bg-blue-800 transition-colors font-medium"
+              >
+                Request This Service
+              </a>
             </div>
           ))}
         </div>
