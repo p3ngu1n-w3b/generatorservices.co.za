@@ -1,53 +1,49 @@
+import grgs from '../assets/logo/grgs.png';
+import { WA_QUOTE, PHONE_TEL, PHONE_DISPLAY, EMAIL } from '../config';
+
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-12">
-      <div className="container mx-auto px-6">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+    <footer className="border-t border-white/10 bg-ink-800 pt-16">
+      <div className="container-wide">
+        <div className="grid gap-10 md:grid-cols-3">
           <div>
-            <h3 className="text-xl font-bold mb-4 text-blue-400">Garden Route Generator Services</h3>
-            <p className="text-gray-400 text-sm">
-              Reliable backup power support for homes, businesses, and commercial sites.
-              We deliver practical generator solutions with fast response times.
+            <span className="inline-flex rounded-xl bg-white/95 px-3 py-2">
+              <img src={grgs} alt="Garden Route Generator Services" className="h-9 w-auto" />
+            </span>
+            <p className="mt-5 max-w-sm text-white/55">
+              Reliable backup power for homes, businesses and commercial sites
+              across the Garden Route. Practical solutions, fast response.
             </p>
-            <a
-              href="https://wa.me/27822105077?text=Hi%20Garden%20Route%20Generator%20Services%2C%20please%20assist%20with%20a%20generator%20quote."
-              target="_blank"
-              rel="noreferrer"
-              className="inline-block mt-4 bg-emerald-500 hover:bg-emerald-400 text-white px-4 py-2 rounded-md font-semibold transition-colors"
-            >
-              WhatsApp For A Quote
+            <a href={WA_QUOTE} target="_blank" rel="noreferrer" className="btn-volt mt-6 px-5 py-2.5 text-sm">
+              WhatsApp for a quote
             </a>
           </div>
+
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2 text-gray-400 text-sm">
-              <li><a href="#services" className="hover:text-blue-400 transition-colors">Services</a></li>
-              <li><a href="#about" className="hover:text-blue-400 transition-colors">Why Us</a></li>
-              <li><a href="#gallery" className="hover:text-blue-400 transition-colors">Projects</a></li>
-              <li><a href="#contact" className="hover:text-blue-400 transition-colors">Contact</a></li>
+            <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-white/40">Explore</h3>
+            <ul className="mt-5 space-y-3 text-white/70">
+              <li><a href="#services" className="transition-colors hover:text-volt">Services</a></li>
+              <li><a href="#why" className="transition-colors hover:text-volt">Why us</a></li>
+              <li><a href="#gallery" className="transition-colors hover:text-volt">Our work</a></li>
+              <li><a href="#contact" className="transition-colors hover:text-volt">Contact</a></li>
             </ul>
           </div>
+
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact</h3>
-            <ul className="space-y-2 text-gray-400 text-sm">
-              <li><a href="tel:+27822105077" className="hover:text-blue-300 transition-colors">Phone: 082 210 5077</a></li>
-              <li><a href="mailto:info@generatorservices.co.za" className="hover:text-blue-300 transition-colors">Email: info@generatorservices.co.za</a></li>
-              <li>Service Area: Garden Route</li>
-              <li>Available 24/7 for emergencies</li>
+            <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-white/40">Contact</h3>
+            <ul className="mt-5 space-y-3 text-white/70">
+              <li><a href={`tel:${PHONE_TEL}`} className="transition-colors hover:text-volt">{PHONE_DISPLAY}</a></li>
+              <li><a href={`mailto:${EMAIL}`} className="transition-colors hover:text-volt">{EMAIL}</a></li>
+              <li>Garden Route, Western Cape</li>
+              <li>24/7 for emergencies</li>
             </ul>
-          </div>
-        </div>
-        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-center">
-          <div className="mb-4 md:mb-0 text-center">
-            <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Garden Route Generator Services.
-            </p>
-            <p className="text-gray-400 text-sm">
-              All rights reserved.
-            </p>
           </div>
         </div>
 
+        <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 py-8 text-sm text-white/45 md:flex-row">
+          <p>© {new Date().getFullYear()} Garden Route Generator Services. All rights reserved.</p>
+          <p>Power you can count on.</p>
+        </div>
       </div>
     </footer>
   );
