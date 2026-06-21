@@ -87,7 +87,7 @@ Details: ${formData.message || 'No extra details'}`;
                 </span>
                 <div className="min-w-0">
                   <div className="text-sm text-white/50">Email</div>
-                  <div className="break-all text-base font-semibold text-white sm:text-lg">{EMAIL}</div>
+                  <div className="text-[15px] font-semibold leading-snug text-white [overflow-wrap:anywhere] sm:text-lg">{EMAIL}</div>
                 </div>
               </a>
 
