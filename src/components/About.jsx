@@ -2,7 +2,7 @@ import technician from '../assets/generated/technician.jpg';
 import Counter from './Counter';
 
 const stats = [
-  { end: 15, suffix: '+', label: 'Years hands-on experience' },
+  { end: 20, suffix: '+', label: 'Years hands-on experience' },
   { end: 500, suffix: '+', label: 'Generators serviced' },
   { end: 24, suffix: '/7', label: 'Emergency availability' },
   { end: 100, suffix: '%', label: 'Workmanship focused' },
@@ -31,7 +31,7 @@ function About() {
             </div>
             <div className="absolute -bottom-6 -right-4 hidden rounded-2xl border border-volt/30 bg-ink/90 px-6 py-5 shadow-volt backdrop-blur sm:block">
               <div className="display-title text-3xl font-bold text-volt">
-                <Counter end={15} suffix="+" />
+                <Counter end={20} suffix="+" />
               </div>
               <div className="text-sm text-white/70">years on the tools</div>
             </div>

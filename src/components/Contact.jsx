@@ -133,6 +133,12 @@ Details: ${formData.message || 'No extra details'}`;
               <a href={WA_DEFAULT} target="_blank" rel="noreferrer" className="block text-center text-sm text-white/55 transition-colors hover:text-volt">
                 or start a blank WhatsApp chat
               </a>
+              <p className="pt-1 text-center text-xs leading-relaxed text-white/40">
+                By submitting this form you consent to Garden Route Generator
+                Services processing your personal information to respond to your
+                enquiry, in accordance with the Protection of Personal Information
+                Act (POPIA). We never share your details with third parties.
+              </p>
             </form>
           </div>
         </div>

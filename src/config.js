@@ -1,6 +1,6 @@
 export const PHONE_DISPLAY = '082 210 5077';
 export const PHONE_TEL = '+27822105077';
-export const EMAIL = 'info@generatorservices.co.za';
+export const EMAIL = 'sales@generatorservices.co.za';
 export const WHATSAPP_NUMBER = '27822105077';
 
 export const wa = (message) =>

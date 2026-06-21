@@ -40,8 +40,11 @@ function Footer() {
           </div>
         </div>
 
-        <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 py-8 text-sm text-white/45 md:flex-row">
+        <div className="mt-14 flex flex-col items-center justify-between gap-3 border-t border-white/10 py-8 text-sm text-white/45 md:flex-row">
           <p>© {new Date().getFullYear()} Garden Route Generator Services. All rights reserved.</p>
+          <p className="text-center text-xs text-white/35">
+            We process personal information in line with POPIA (Act 4 of 2013).
+          </p>
           <p>Power you can count on.</p>
         </div>
       </div>
