@@ -105,21 +105,28 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
-.reveal[data-reveal="left"] {
-  transform: translateX(-40px);
-}
+.reveal[data-reveal="left"],
 .reveal[data-reveal="right"] {
-  transform: translateX(40px);
-}
-.reveal[data-reveal="left"].is-visible,
-.reveal[data-reveal="right"].is-visible {
-  transform: translateX(0);
+  transform: translateY(34px);
 }
 .reveal[data-reveal="scale"] {
   transform: scale(0.94);
 }
 .reveal[data-reveal="scale"].is-visible {
   transform: scale(1);
+}
+
+@media (min-width: 768px) {
+  .reveal[data-reveal="left"] {
+    transform: translateX(-40px);
+  }
+  .reveal[data-reveal="right"] {
+    transform: translateX(40px);
+  }
+  .reveal[data-reveal="left"].is-visible,
+  .reveal[data-reveal="right"].is-visible {
+    transform: translateX(0);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
