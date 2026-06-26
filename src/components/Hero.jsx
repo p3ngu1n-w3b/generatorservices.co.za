@@ -23,10 +23,10 @@ function Hero() {
             Garden Route · Power Specialists
           </div>
 
-          <h1 className="reveal display-title mt-6 text-5xl font-bold text-white sm:text-6xl md:text-7xl lg:text-8xl" data-reveal-delay="80">
+          <h1 className="reveal display-title mt-6 text-center text-5xl font-bold text-white sm:text-6xl md:text-7xl lg:text-8xl" data-reveal-delay="80">
             Take <span className="text-gradient-volt">charge</span>
             <br />
-            of your power.
+            of your power!
           </h1>
 
           <p
