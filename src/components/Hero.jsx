@@ -20,7 +20,10 @@ function Hero() {
         <div className="max-w-3xl text-center md:text-left">
           <div className="reveal eyebrow" data-reveal-delay="0">
             <span className="h-2 w-2 animate-pulse rounded-full bg-volt" />
-            Garden Route · Power Specialists
+            <span className="flex flex-col leading-tight">
+              <span>Garden Route</span>
+              <span>Power Specialists</span>
+            </span>
           </div>
 
           <h1 className="reveal display-title mt-6 text-center text-5xl font-bold text-white sm:text-6xl md:text-left md:text-7xl lg:text-8xl" data-reveal-delay="80">
