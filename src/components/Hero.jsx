@@ -24,9 +24,9 @@ function Hero() {
           </div>
 
           <h1 className="reveal display-title mt-6 text-5xl font-bold text-white sm:text-6xl md:text-7xl lg:text-8xl" data-reveal-delay="80">
-            Never sit in
+            Take <span className="text-gradient-volt">charge</span>
             <br />
-            the <span className="text-gradient-volt">dark</span> again.
+            of your power.
           </h1>
 
           <p
