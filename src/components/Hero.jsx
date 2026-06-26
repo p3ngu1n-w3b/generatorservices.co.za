@@ -30,12 +30,12 @@ function Hero() {
           </h1>
 
           <p
-            className="reveal display-title mt-6 text-2xl font-semibold tracking-tight text-volt sm:text-3xl md:text-4xl"
+            className="reveal display-title mt-6 text-2xl font-semibold tracking-tight text-white sm:text-3xl md:text-4xl"
             data-reveal-delay="120"
           >
             Stay Powered.
             <br className="sm:hidden" />{' '}
-            <span className="text-white">Stay Connected.</span>
+            <span className="text-gradient-volt">Stay Connected.</span>
           </p>
 
           <p className="reveal mx-auto mt-7 max-w-xl text-lg text-white/75 md:mx-0 md:text-xl" data-reveal-delay="160">
