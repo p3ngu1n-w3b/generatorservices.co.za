@@ -29,6 +29,13 @@ function Hero() {
             the <span className="text-gradient-volt">dark</span> again.
           </h1>
 
+          <p
+            className="reveal display-title mt-6 text-2xl font-semibold tracking-tight text-volt sm:text-3xl md:text-4xl"
+            data-reveal-delay="120"
+          >
+            Stay Powered. <span className="text-white">Stay Connected.</span>
+          </p>
+
           <p className="reveal mt-7 max-w-xl text-lg text-white/75 md:text-xl" data-reveal-delay="160">
             Sales, repairs, maintenance and emergency support for residential,
             commercial and industrial generators across the Garden Route. Reliable
