@@ -23,17 +23,19 @@ function Hero() {
             Garden Route · Power Specialists
           </div>
 
-          <h1 className="reveal display-title mt-6 text-center text-5xl font-bold text-white sm:text-6xl md:text-left md:text-7xl lg:text-8xl" data-reveal-delay="80">
+          <h1 className="reveal display-title mt-6 text-center text-2xl font-bold text-white sm:text-3xl md:text-left md:text-4xl" data-reveal-delay="80">
             Take <span className="text-gradient-volt">charge</span>
             <br />
             of your power!
           </h1>
 
           <p
-            className="reveal display-title mt-6 text-2xl font-semibold tracking-tight text-volt sm:text-3xl md:text-4xl"
+            className="reveal display-title mt-6 text-5xl font-semibold tracking-tight text-volt sm:text-6xl md:text-7xl lg:text-8xl"
             data-reveal-delay="120"
           >
-            Stay Powered. <span className="text-white">Stay Connected.</span>
+            Stay Powered.
+            <br className="sm:hidden" />{' '}
+            <span className="text-white">Stay Connected.</span>
           </p>
 
           <p className="reveal mx-auto mt-7 max-w-xl text-lg text-white/75 md:mx-0 md:text-xl" data-reveal-delay="160">
