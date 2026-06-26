@@ -30,7 +30,7 @@ function Hero() {
           </h1>
 
           <p
-            className="reveal display-title mt-6 text-2xl font-semibold tracking-tight text-white sm:text-3xl md:text-4xl"
+            className="reveal display-title mt-6 text-3xl font-semibold tracking-tight text-white sm:text-3xl md:text-4xl"
             data-reveal-delay="120"
           >
             Stay Powered.
