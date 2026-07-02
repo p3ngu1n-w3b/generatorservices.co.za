@@ -17,25 +17,37 @@ function Hero() {
       <div className="absolute -left-24 top-1/3 h-72 w-72 rounded-full bg-volt/20 blur-[120px]" />
 
       <div className="container-wide relative z-10">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl text-center md:text-left">
           <div className="reveal eyebrow" data-reveal-delay="0">
             <span className="h-2 w-2 animate-pulse rounded-full bg-volt" />
-            Garden Route · Power Specialists
+            <span className="flex flex-col leading-tight">
+              <span>Garden Route</span>
+              <span>Power Specialists</span>
+            </span>
           </div>
 
-          <h1 className="reveal display-title mt-6 text-5xl font-bold text-white sm:text-6xl md:text-7xl lg:text-8xl" data-reveal-delay="80">
-            Never sit in
+          <h1 className="reveal display-title mt-6 text-center text-5xl font-bold text-white sm:text-6xl md:text-left md:text-7xl lg:text-8xl" data-reveal-delay="80">
+            Take <span className="text-gradient-volt">charge</span>
             <br />
-            the <span className="text-gradient-volt">dark</span> again.
+            of your power!
           </h1>
 
-          <p className="reveal mt-7 max-w-xl text-lg text-white/75 md:text-xl" data-reveal-delay="160">
+          <p
+            className="reveal display-title mt-6 text-3xl font-semibold tracking-tight text-white sm:text-3xl md:text-4xl"
+            data-reveal-delay="120"
+          >
+            Stay Powered.
+            <br className="sm:hidden" />{' '}
+            <span className="text-gradient-volt">Stay Connected.</span>
+          </p>
+
+          <p className="reveal mx-auto mt-7 max-w-xl text-lg text-white/75 md:mx-0 md:text-xl" data-reveal-delay="160">
             Sales, repairs, maintenance and emergency support for residential,
             commercial and industrial generators across the Garden Route. Reliable
             power, handled by people who answer the phone.
           </p>
 
-          <div className="reveal mt-9 flex flex-col gap-4 sm:flex-row" data-reveal-delay="240">
+          <div className="reveal mt-9 flex flex-col items-center gap-4 sm:flex-row sm:justify-center md:items-start md:justify-start" data-reveal-delay="240">
             <a href={WA_QUOTE} target="_blank" rel="noreferrer" className="btn-volt text-base">
               Get a free quote
               <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -47,7 +59,7 @@ function Hero() {
             </a>
           </div>
 
-          <div className="reveal mt-14 grid max-w-lg grid-cols-3 gap-6" data-reveal-delay="320">
+          <div className="reveal mx-auto mt-14 grid max-w-lg grid-cols-3 gap-6 md:mx-0" data-reveal-delay="320">
             {[
               { k: 'Rapid', v: 'Emergency response' },
               { k: 'All', v: 'Major brands' },
